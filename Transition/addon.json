@@ -1,0 +1,38 @@
+{
+	"is-c3-addon": true,
+	"type": "effect",
+	"name": "Transition",
+	"id": "Transition",
+	"version": "1.0.0.0",
+	"author": "Josyah Dooley",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "Transition using any gradient image",
+	"file-list": [
+		"lang/en-US.json",
+		"addon.json",
+		"effect.fx"
+	],
+
+	"category": "blend",
+	"blends-background": true,
+	"cross-sampling": false,
+	"preserves-opaqueness": false,
+	"animated": false,
+	"must-predraw": true,
+	"extend-box": {
+		"horizontal": 0,
+		"vertical": 0
+	},
+	"is-deprecated": false,
+
+	"parameters": [
+		{
+			"id": "cutoff",
+			"c2id": "cutoff",
+			"type": "float",
+			"initial-value": 0.0,
+			"uniform": "cutOff"
+		}
+	]
+}
