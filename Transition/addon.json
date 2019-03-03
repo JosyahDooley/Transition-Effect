@@ -19,7 +19,6 @@
 	"cross-sampling": false,
 	"preserves-opaqueness": false,
 	"animated": false,
-	"must-predraw": true,
 	"extend-box": {
 		"horizontal": 0,
 		"vertical": 0
@@ -29,10 +28,15 @@
 	"parameters": [
 		{
 			"id": "cutoff",
-			"c2id": "cutoff",
 			"type": "float",
 			"initial-value": 0.0,
 			"uniform": "cutOff"
+		},
+		{
+			"id": "TransitionColor",
+			"type": "color",
+			"initial-value": [0.0, 0.0, 0.0],
+			"uniform": "transColor"
 		}
 	]
 }
