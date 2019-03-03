@@ -11,6 +11,10 @@
 					"cutoff": {
 						"name": "cutOff",
 						"desc": "Pixel darkness comparison value"
+					},
+					"TransitionColor": {
+						"name": "transColor",
+						"desc": "Color of the transition"
 					}
 				}
 			}
